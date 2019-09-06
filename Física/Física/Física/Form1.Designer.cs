@@ -67,7 +67,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(47, 54);
+            this.label1.Location = new System.Drawing.Point(148, 218);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 25);
             this.label1.TabIndex = 2;
@@ -77,11 +77,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(47, 223);
+            this.label2.Location = new System.Drawing.Point(148, 302);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(27, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "B";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtMasacaja
             // 
@@ -96,10 +97,10 @@
             // 
             this.txtA_B.BackColor = System.Drawing.Color.Yellow;
             this.txtA_B.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtA_B.Location = new System.Drawing.Point(45, 82);
+            this.txtA_B.Location = new System.Drawing.Point(146, 248);
             this.txtA_B.Multiline = true;
             this.txtA_B.Name = "txtA_B";
-            this.txtA_B.Size = new System.Drawing.Size(29, 138);
+            this.txtA_B.Size = new System.Drawing.Size(29, 48);
             this.txtA_B.TabIndex = 5;
             this.txtA_B.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
