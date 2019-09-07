@@ -141,6 +141,7 @@
             this.buttoncalcular.TabIndex = 9;
             this.buttoncalcular.Text = "Calcular RA y RB";
             this.buttoncalcular.UseVisualStyleBackColor = false;
+            this.buttoncalcular.Click += new System.EventHandler(this.buttoncalcular_Click);
             // 
             // lbldespliegue
             // 
@@ -161,6 +162,7 @@
             this.buttonLimpiar.TabIndex = 11;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
             // 
             // buttonsalir
             // 
@@ -172,6 +174,7 @@
             this.buttonsalir.TabIndex = 12;
             this.buttonsalir.Text = "Salir";
             this.buttonsalir.UseVisualStyleBackColor = false;
+            this.buttonsalir.Click += new System.EventHandler(this.buttonsalir_Click);
             // 
             // Form1
             // 
