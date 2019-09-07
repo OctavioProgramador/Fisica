@@ -29,7 +29,7 @@ namespace Física
             double d1 = Convert.ToDouble(txtd1.Text);
             double d2 = Convert.ToDouble(txtd2.Text) + d1;
             double dAB = Convert.ToDouble(txtA_B.Text);
-            double Rb = (-(f1*d1)-(f2 * d2))/dAB;
+            double Rb = ((f1*d1)+(f2 * d2))/dAB;
             double Rax = -Rb;
             double Ray = f1 + f2;
             double Ra = Math.Sqrt(Math.Pow(Rb, 2) + Math.Pow(Ray, 2));
