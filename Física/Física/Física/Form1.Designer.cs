@@ -62,6 +62,7 @@
             this.txtMasagrua.Size = new System.Drawing.Size(100, 20);
             this.txtMasagrua.TabIndex = 1;
             this.txtMasagrua.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMasagrua.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // label1
             // 
@@ -92,6 +93,7 @@
             this.txtMasacaja.Size = new System.Drawing.Size(100, 20);
             this.txtMasacaja.TabIndex = 4;
             this.txtMasacaja.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtMasacaja.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // txtA_B
             // 
@@ -103,6 +105,7 @@
             this.txtA_B.Size = new System.Drawing.Size(29, 48);
             this.txtA_B.TabIndex = 5;
             this.txtA_B.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtA_B.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // txtd1
             // 
@@ -112,6 +115,7 @@
             this.txtd1.Size = new System.Drawing.Size(128, 20);
             this.txtd1.TabIndex = 6;
             this.txtd1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtd1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // txtd2
             // 
@@ -121,6 +125,7 @@
             this.txtd2.Size = new System.Drawing.Size(128, 20);
             this.txtd2.TabIndex = 7;
             this.txtd2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtd2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // txtd3
             // 
@@ -130,6 +135,7 @@
             this.txtd3.Size = new System.Drawing.Size(253, 20);
             this.txtd3.TabIndex = 8;
             this.txtd3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtd3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtA_B_KeyPress);
             // 
             // buttoncalcular
             // 
